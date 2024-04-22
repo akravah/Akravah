@@ -1,0 +1,35 @@
+.container {
+  margin-top: 10rem;
+  width: 90vw;
+  padding: 10px;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+}
+
+.cv-btn {
+  width: 7rem;
+  height: 7rem;
+  margin: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  transition: 0.5s;
+}
+
+.cv-btn:hover {
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+p {
+  font-size: x-large;
+}

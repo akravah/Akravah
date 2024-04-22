@@ -1,0 +1,16 @@
+<header>
+  <div class="left">
+    <a routerLink="/"><img src="/assets/pro-pic/Logo.jpg" alt="" /></a>
+  </div>
+  <div class="right">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li (click)="goToAbout('#about')"><a href="#about">About Me</a></li>
+      <li><a routerLink="cv">CV</a></li>
+      <li (click)="goToContact('#contact-me')">
+        <a href="#contact-me">Contact Me</a>
+      </li>
+      <li><a href="projects">Projects</a></li>
+    </ul>
+  </div>
+</header>

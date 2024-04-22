@@ -1,0 +1,109 @@
+.bg-img {
+  position: relative;
+}
+
+.bg-img img {
+  filter: brightness(0.4);
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.bg-img h1 {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.bg-img h3 {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 8px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+  margin-top: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-img {
+  width: 50wv;
+}
+
+.profile-img img {
+  object-fit: cover;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-left: 10rem;
+  margin-right: 3rem;
+}
+
+.description {
+  width: 50wv;
+  text-overflow: ellipsis;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description button {
+  width: 10rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 3px;
+  height: 4rem;
+  transition: 0.5ms;
+}
+
+.description button:hover {
+  cursor: pointer;
+  background-color: gray;
+  transition: 0.5ms;
+}
+
+.contact-me {
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me h2 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-me hr {
+  width: 60%;
+  text-align: left;
+  height: 2px;
+  background-color: darkgray;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 2.5rem;
+  margin-left: 8rem;
+  transition: transform 0.2s;
+  margin-bottom: 20rem;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  height: 5rem;
+  z-index: 100;
+}
+
+.left img {
+  height: 5rem;
+}
+
+.right ul {
+  list-style: none;
+}
+
+.right li {
+  display: inline;
+  margin: 2rem;
+}
+
+.right a {
+  text-decoration: none;
+  color: white;
+}
